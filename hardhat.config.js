@@ -17,7 +17,7 @@ module.exports = {
       gasPrice: 0,
       initialBaseFeePerGas: 0,
       accounts: {
-        mnemonic: "swap swap swap swap swap swap swap swap swap swap swap swap"
+        mnemonic: "swap swap swap swap swap swap swap swap swap swap swap swap",
       },
     },
   },
@@ -26,11 +26,11 @@ module.exports = {
     settings: {
       optimizer: {
         enabled: true,
-        runs: 200
-      }
-    }
+        runs: 200,
+      },
+    },
   },
   mocha: {
-    timeout: 600000
+    timeout: 600000,
   },
 };
